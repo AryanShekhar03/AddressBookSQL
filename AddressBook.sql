@@ -33,3 +33,6 @@ update AddressBook set Email_Id='singh@gmail.com' where first_name='Rahul';
 
 update AddressBook set last_name='Anand' where first_name='Rahul';
 select * from AddressBook;
+
+--UC5 Delete person using first name
+Delete AddressBook where first_Name='Rahul';
